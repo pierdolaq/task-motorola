@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recruitment Task - Mateusz Kudraj</title>
+    <script defer src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img class="logo" src="img/logowhite.png" alt=""></a>
+        <!-- NAVIGATION BAR -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="about.html" class="nav_link">About me</a></li>
+                <li class="nav_item"><a href="skills.html" class="nav_link">My skills</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="nav_link"><button>Contact</button></a>
+    </header>
+    <div class="container">
+        <span class="animationNav"><img src="img/arrow.png"></span>
+    </div>
+    <div class="content" id="contact">
+        <h1>Contact Me</h1>
+        <div class=borderOutline>
+            <div class="border"></div>
+
+
+            <form id="form" method="GET">
+                <div>
+                    <label class="contact-form-label" for="name">NAME</label>
+                    <input class="contact-form-text" placeholder="Enter your name" type="text" name="name" id="name" >
+                </div>
+                <div>
+                    <label class="contact-form-label" for="email">EMAIL</label>
+                    <input class="contact-form-text" placeholder="Give your email" name="email" id="email" >
+                </div>
+                <div class="message">
+                    <label class="contact-form-label" for="message">MESSAGE</label>
+                    <textarea class="contact-form-text" placeholder="--- Put your message here --- (10-100 characters allowed)" ftype="text" name="message" id="message"></textarea>
+                </div>
+
+                <div id="error"></div>
+                <button class="contact-form-button" type="submit" class="buttonTwo" onclick="validation();">SEND</button>
+
+                <div class="contactInfo">
+                    <p>
+                        <span> kudraj7@wp.pl</span>
+                    </p> 
+                    
+                    <p>
+                        <span>(+48) 516 411 012</span>
+                    </p>
+                </div>      
+            </form>
+        </div>
+
+        <br><br><br>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <form id="form" class="contact-form" action="/" method="GET">
+                
+            
+        </form>
+    </div>
+
+    <footer class=footer>@Copyright 2020 Mateusz Kudraj</footer> 
+</body>
+</html>
